@@ -9,7 +9,7 @@ import '../record_platform_interface.dart';
 /// The interface that implementations of Record must implement.
 ///
 /// Platform implementations should extend this class rather than implement it
-/// as record does not consider newly added methods to be breaking changes.
+/// as record_for_t does not consider newly added methods to be breaking changes.
 /// Extending this class ensures that the subclass will get the default
 /// implementation, while platform implementations that merely implement the
 /// interface will be broken by newly added [RecordPlatform] functions.
@@ -50,7 +50,7 @@ abstract class RecordPlatform extends PlatformInterface {
 
   /// Same as [start] with output stream instead of a path.
   ///
-  /// When stopping the record, you must rely on stream close event to get
+  /// When stopping the record_for_t, you must rely on stream close event to get
   /// full recorded data.
   Future<Stream<Uint8List>> startStream(
           String recorderId, RecordConfig config) =>
@@ -79,7 +79,7 @@ abstract class RecordPlatform extends PlatformInterface {
   /// Checks if recording session is paused.
   Future<bool> isPaused(String recorderId);
 
-  /// Checks and requests for audio record permission.
+  /// Checks and requests for audio record_for_t permission.
   Future<bool> hasPermission(String recorderId);
 
   /// Dispose the recorder

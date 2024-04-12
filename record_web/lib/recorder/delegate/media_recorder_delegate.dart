@@ -98,7 +98,7 @@ class MediaRecorderDelegate extends RecorderDelegate {
       final mediaStream = await initMediaStream(config);
 
       // Try to assign dedicated mime type.
-      // If contrainst isn't set, browser will record with its default codec.
+      // If contrainst isn't set, browser will record_for_t with its default codec.
       final mimeType = getSupportedMimeType(config.encoder);
 
       final mediaRecorder = MediaRecorder(

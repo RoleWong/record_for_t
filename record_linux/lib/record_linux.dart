@@ -111,7 +111,7 @@ class RecordLinux extends RecordPlatform {
       [
         '--notui',
         '--background',
-        '--record',
+        '--record_for_t',
         '--out=$path',
         '--rate=${config.sampleRate}',
         '--channels=$numChannels',

@@ -36,7 +36,7 @@ namespace record_windows {
 		m_binaryMessenger = registrar->messenger();
 
 		auto methodChannel = std::make_unique<MethodChannel<EncodableValue>>(
-			m_binaryMessenger, "com.llfbandit.record/messages",
+			m_binaryMessenger, "com.llfbandit.record_for_t/messages",
 			&StandardMethodCodec::GetInstance());
 
 		methodChannel->SetMethodCallHandler(
@@ -264,7 +264,7 @@ namespace record_windows {
 	{
 		// State event channel
 		auto eventChannel = std::make_unique<EventChannel<EncodableValue>>(
-			m_binaryMessenger, "com.llfbandit.record/events/" + recorderId,
+			m_binaryMessenger, "com.llfbandit.record_for_t/events/" + recorderId,
 			&StandardMethodCodec::GetInstance());
 
 		auto eventHandler = new EventStreamHandler<>();
@@ -273,7 +273,7 @@ namespace record_windows {
 
 		// Record stream event channel
 		auto eventRecordChannel = std::make_unique<EventChannel<EncodableValue>>(
-			m_binaryMessenger, "com.llfbandit.record/eventsRecord/" + recorderId,
+			m_binaryMessenger, "com.llfbandit.record_for_t/eventsRecord/" + recorderId,
 			&StandardMethodCodec::GetInstance());
 
 		auto eventRecordHandler = new EventStreamHandler<>();

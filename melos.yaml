@@ -1,9 +1,9 @@
-name: record
+name: record_for_t
 
 packages:
-  - record
-  - record/example
-  - record_android
+  - record_for_t
+  - record_for_t/example
+  - record_android_for_t
   - record_darwin
   - record_linux
   - record_platform_interface

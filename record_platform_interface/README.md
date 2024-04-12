@@ -22,5 +22,5 @@ over breaking changes for this package.
 See https://flutter.dev/go/platform-interface-breaking-changes for a discussion
 on why a less-clean interface is preferable to a breaking change.
 
-[1]: ../record
+[1]: ../record_for_t
 [2]: lib/record_platform_interface.dart

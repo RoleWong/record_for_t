@@ -6,7 +6,7 @@ import '../record_platform_interface.dart';
 
 class RecordMethodChannel extends RecordPlatform {
   // Channel handlers
-  final _methodChannel = const MethodChannel('com.llfbandit.record/messages');
+  final _methodChannel = const MethodChannel('com.llfbandit.record_for_t/messages');
 
   @override
   Future<void> create(String recorderId) {
@@ -76,7 +76,7 @@ class RecordMethodChannel extends RecordPlatform {
     RecordConfig config,
   ) async {
     final eventRecordChannel = EventChannel(
-      'com.llfbandit.record/eventsRecord/$recorderId',
+      'com.llfbandit.record_for_t/eventsRecord/$recorderId',
     );
 
     await _methodChannel.invokeMethod('startStream', {
@@ -157,7 +157,7 @@ class RecordMethodChannel extends RecordPlatform {
   @override
   Stream<RecordState> onStateChanged(String recorderId) {
     final eventChannel = EventChannel(
-      'com.llfbandit.record/events/$recorderId',
+      'com.llfbandit.record_for_t/events/$recorderId',
     );
 
     return eventChannel.receiveBroadcastStream().map<RecordState>(

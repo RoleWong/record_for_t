@@ -1,5 +1,5 @@
 name: record_darwin
-description: iOS and macOS implementations for record package called by record_platform_interface.
+description: iOS and macOS implementations for record_for_t package called by record_platform_interface.
 version: 1.0.1
 homepage: https://github.com/llfbandit/record/tree/master/record_darwin
 
@@ -15,7 +15,7 @@ dependencies:
 
 flutter:
   plugin:
-    implements: record
+    implements: record_for_t
     platforms:
       ios:
         pluginClass: RecordPlugin

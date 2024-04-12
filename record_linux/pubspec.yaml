@@ -1,5 +1,5 @@
 name: record_linux
-description: Linux specific implementation for record package called by record_platform_interface.
+description: Linux specific implementation for record_for_t package called by record_platform_interface.
 version: 0.7.1
 homepage: https://github.com/llfbandit/record/tree/master/record_linux
 
@@ -22,7 +22,7 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
   plugin:
-    implements: record
+    implements: record_for_t
     platforms:
       linux:
         pluginClass: RecordLinuxPlugin

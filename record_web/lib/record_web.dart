@@ -105,7 +105,7 @@ class RecordPluginWebWrapper extends RecordPlatform {
 
     if (recorder == null) {
       throw PlatformException(
-        code: 'record',
+        code: 'record_for_t',
         message:
             'Record has not yet been created or has already been disposed.',
       );
