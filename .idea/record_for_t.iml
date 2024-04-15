@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build" />
+      <excludeFolder url="file://$MODULE_DIR$/record_android_for_t/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/record_android_for_t/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/record_android_for_t/build" />
+      <excludeFolder url="file://$MODULE_DIR$/record_darwin/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/record_darwin/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/record_darwin/build" />
+      <excludeFolder url="file://$MODULE_DIR$/record_for_t/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/record_for_t/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/record_for_t/build" />
+      <excludeFolder url="file://$MODULE_DIR$/record_for_t/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/record_for_t/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/record_for_t/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/record_linux/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/record_linux/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/record_linux/build" />
+      <excludeFolder url="file://$MODULE_DIR$/record_platform_interface/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/record_platform_interface/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/record_platform_interface/build" />
+      <excludeFolder url="file://$MODULE_DIR$/record_web/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/record_web/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/record_web/build" />
+      <excludeFolder url="file://$MODULE_DIR$/record_windows/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/record_windows/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/record_windows/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Dart SDK" level="project" />
+    <orderEntry type="library" name="Dart Packages" level="project" />
+  </component>
+</module>
